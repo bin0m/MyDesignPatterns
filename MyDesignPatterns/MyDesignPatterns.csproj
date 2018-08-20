@@ -44,6 +44,8 @@
   <ItemGroup>
     <Compile Include="HtmlBuilder\HtmlBuilder.cs" />
     <Compile Include="HtmlBuilder\HtmlElement.cs" />
+    <Compile Include="HtmlBuilder\RunHtmlBuilder.cs" />
+    <Compile Include="IRunInConsole.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

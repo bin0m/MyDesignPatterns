@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MyDesignPatterns.HtmlBuilder;
 
 namespace MyDesignPatterns
 {
@@ -10,9 +11,7 @@ namespace MyDesignPatterns
     {
         static void Main(string[] args)
         {
-            var htmlBuilder = new HtmlBuilder.HtmlBuilder("ul");
-            htmlBuilder.AddChild("li","hello").AddChild("li","world");
-            Console.WriteLine(htmlBuilder);
+            (new RunHtmlBuilder()).Run();
             Console.ReadLine();
         }
     }
