@@ -17,9 +17,10 @@ namespace MyDesignPatterns.HtmlBuilder
             root.Name = rootName;
         }
 
-        public void AddChild(string childName, string childText)
+        public HtmlBuilder AddChild(string childName, string childText)
         {
             root.childElements.Add(new HtmlElement(childName,childText));
+            return this;
         }
 
         public override string ToString()

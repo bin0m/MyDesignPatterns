@@ -11,8 +11,7 @@ namespace MyDesignPatterns
         static void Main(string[] args)
         {
             var htmlBuilder = new HtmlBuilder.HtmlBuilder("ul");
-            htmlBuilder.AddChild("li","hello");
-            htmlBuilder.AddChild("li","world");
+            htmlBuilder.AddChild("li","hello").AddChild("li","world");
             Console.WriteLine(htmlBuilder);
             Console.ReadLine();
         }
