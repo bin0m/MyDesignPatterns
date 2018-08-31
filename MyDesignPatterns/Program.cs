@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MyDesignPatterns.HtmlBuilder;
+
 
 namespace MyDesignPatterns
 {
@@ -11,7 +7,8 @@ namespace MyDesignPatterns
     {
         static void Main(string[] args)
         {
-            (new RunHtmlBuilder()).Run();
+            new HtmlBuilder.RunHtmlBuilder().Run();
+            new OpenClosedPrinciple.RunOpenClosedPrinciple().Run();
             Console.ReadLine();
         }
     }
