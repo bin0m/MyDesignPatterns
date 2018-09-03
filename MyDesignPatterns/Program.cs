@@ -7,7 +7,7 @@ namespace MyDesignPatterns
     {
         static void Main(string[] args)
         {
-            new HtmlBuilder.RunHtmlBuilder().Run();
+            //new HtmlBuilder.RunHtmlBuilder().Run();
             new OpenClosedPrinciple.RunOpenClosedPrinciple().Run();
             Console.ReadLine();
         }
