@@ -8,7 +8,9 @@ namespace MyDesignPatterns
         static void Main(string[] args)
         {
             //new HtmlBuilder.RunHtmlBuilder().Run();
-            new OpenClosedPrinciple.RunOpenClosedPrinciple().Run();
+            //new OpenClosedPrinciple.RunOpenClosedPrinciple().Run();
+            new LiskovSubstitutionPrinciple.RunLiskovSubstitutionPrinciple().Run();
+
             Console.ReadLine();
         }
     }

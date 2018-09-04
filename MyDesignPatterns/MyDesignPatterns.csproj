@@ -46,6 +46,8 @@
     <Compile Include="HtmlBuilder\HtmlElement.cs" />
     <Compile Include="HtmlBuilder\RunHtmlBuilder.cs" />
     <Compile Include="IRunInConsole.cs" />
+    <Compile Include="LiskovSubstitutionPrinciple\Rectangle.cs" />
+    <Compile Include="LiskovSubstitutionPrinciple\RunLiskovSubstitutionPrinciple.cs" />
     <Compile Include="OpenClosedPrinciple\ProductFilter.cs" />
     <Compile Include="OpenClosedPrinciple\RunOpenClosedPrinciple.cs" />
     <Compile Include="Program.cs" />
