@@ -56,6 +56,7 @@ namespace MyDesignPatterns.OpenClosedPrinciple
     }
 
     // we introduce two new interfaces that are open for extension
+    // explanation: https://lostechies.com/joeocampo/2008/03/21/ptom-the-open-closed-principle/
 
     public interface ISpecification<T>
     {
