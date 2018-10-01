@@ -10,8 +10,8 @@ namespace MyDesignPatterns
         {
             //new HtmlBuilder.RunHtmlBuilder().Run();
             //new OpenClosedPrinciple.RunOpenClosedPrinciple().Run();
-            new LiskovSubstitutionPrinciple.RunLiskovSubstitutionPrinciple().Run();
-
+            //new LiskovSubstitutionPrinciple.RunLiskovSubstitutionPrinciple().Run();
+            new Observer.RunUsingEventKeyword().Run();
             Console.ReadLine();
         }
     }
