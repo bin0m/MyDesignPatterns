@@ -48,6 +48,7 @@
     <Compile Include="IRunInConsole.cs" />
     <Compile Include="LiskovSubstitutionPrinciple\Rectangle.cs" />
     <Compile Include="LiskovSubstitutionPrinciple\RunLiskovSubstitutionPrinciple.cs" />
+    <Compile Include="Observer\ObservableList.cs" />
     <Compile Include="Observer\UsingEventKeyword.cs" />
     <Compile Include="OpenClosedPrinciple\ProductFilter.cs" />
     <Compile Include="OpenClosedPrinciple\RunOpenClosedPrinciple.cs" />

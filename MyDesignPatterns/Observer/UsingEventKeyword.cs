@@ -12,6 +12,7 @@ namespace MyDesignPatterns.Observer
         public string Address;
     }
 
+    //Observable
     public class Person
     {
         public void CatchACold()
@@ -23,6 +24,7 @@ namespace MyDesignPatterns.Observer
         public event EventHandler<FallsIllEventArgs> FallsIll;
     }
 
+    //Observer
     public class RunUsingEventKeyword : IRunInConsole
     {
         public void Run()

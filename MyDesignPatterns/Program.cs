@@ -11,7 +11,8 @@ namespace MyDesignPatterns
             //new HtmlBuilder.RunHtmlBuilder().Run();
             //new OpenClosedPrinciple.RunOpenClosedPrinciple().Run();
             //new LiskovSubstitutionPrinciple.RunLiskovSubstitutionPrinciple().Run();
-            new Observer.RunUsingEventKeyword().Run();
+            //new Observer.RunUsingEventKeyword().Run();
+            new Observer.RunObserver().Run();
             Console.ReadLine();
         }
     }
