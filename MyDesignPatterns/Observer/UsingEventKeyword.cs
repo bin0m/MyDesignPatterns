@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace MyDesignPatterns.Observer
 {
 
-    public class FallsIllEventArgs
+    public class FallsIllEventArgs : EventArgs
     {
         public string Address;
     }
