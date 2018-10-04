@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Decorator\AdapterDecorator.cs" />
     <Compile Include="Decorator\CodeBuilder.cs" />
     <Compile Include="HtmlBuilder\HtmlBuilder.cs" />
     <Compile Include="HtmlBuilder\HtmlElement.cs" />
