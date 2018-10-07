@@ -13,8 +13,9 @@ namespace MyDesignPatterns
             //new LiskovSubstitutionPrinciple.RunLiskovSubstitutionPrinciple().Run();
             //new Observer.RunUsingEventKeyword().Run();
             //new Observer.RunObserver().Run();
-            new Decorator.RunCustomStringBuilder().Run();
+            //new Decorator.RunCustomStringBuilder().Run();
             //new Decorator.RunAdapterDecorator().Run();
+            new Bridge.RunRenderer().Run();
             Console.ReadLine();
         }
     }
