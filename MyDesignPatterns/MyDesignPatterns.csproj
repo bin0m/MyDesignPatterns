@@ -48,6 +48,7 @@
     <Compile Include="Bridge\Renderer.cs" />
     <Compile Include="Decorator\AdapterDecorator.cs" />
     <Compile Include="Decorator\CodeBuilder.cs" />
+    <Compile Include="Decorator\RepositoryLogDecorator.cs" />
     <Compile Include="HtmlBuilder\HtmlBuilder.cs" />
     <Compile Include="HtmlBuilder\HtmlElement.cs" />
     <Compile Include="HtmlBuilder\RunHtmlBuilder.cs" />
