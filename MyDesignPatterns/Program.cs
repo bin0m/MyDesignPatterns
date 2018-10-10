@@ -9,13 +9,13 @@ namespace MyDesignPatterns
         static void Main(string[] args)
         {
             //new HtmlBuilder.RunHtmlBuilder().Run();
-            new OpenClosedPrinciple.RunOpenClosedPrinciple().Run();
+            //new OpenClosedPrinciple.RunOpenClosedPrinciple().Run();
             //new LiskovSubstitutionPrinciple.RunLiskovSubstitutionPrinciple().Run();
             //new Observer.RunUsingEventKeyword().Run();
             //new Observer.RunObserver().Run();
             //new Decorator.RunCustomStringBuilder().Run();
             //new Decorator.RunAdapterDecorator().Run();
-            //new Decorator.RunRepositoryLogDecorator().Run();
+            new Decorator.RunRepositoryLogDecorator().Run();
             //new Bridge.RunRenderer().Run();
             Console.ReadLine();
         }
