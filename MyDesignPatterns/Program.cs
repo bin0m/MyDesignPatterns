@@ -15,8 +15,9 @@ namespace MyDesignPatterns
             //new Observer.RunObserver().Run();
             //new Decorator.RunCustomStringBuilder().Run();
             //new Decorator.RunAdapterDecorator().Run();
-            new Decorator.RunRepositoryLogDecorator().Run();
+            //new Decorator.RunRepositoryLogDecorator().Run();
             //new Bridge.RunRenderer().Run();
+            new Visitor.RunClassicVisitor().Run();
             Console.ReadLine();
         }
     }
