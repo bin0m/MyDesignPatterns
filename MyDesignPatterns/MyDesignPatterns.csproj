@@ -48,6 +48,7 @@
     <Compile Include="Bridge\Renderer.cs" />
     <Compile Include="Decorator\AdapterDecorator.cs" />
     <Compile Include="Decorator\CodeBuilder.cs" />
+    <Compile Include="Decorator\RepositoryLogDecorator.cs" />
     <Compile Include="HtmlBuilder\HtmlBuilder.cs" />
     <Compile Include="HtmlBuilder\HtmlElement.cs" />
     <Compile Include="HtmlBuilder\RunHtmlBuilder.cs" />
@@ -57,7 +58,6 @@
     <Compile Include="Observer\ObservableList.cs" />
     <Compile Include="Observer\UsingEventKeyword.cs" />
     <Compile Include="OpenClosedPrinciple\ProductFilter.cs" />
-    <Compile Include="OpenClosedPrinciple\RunOpenClosedPrinciple.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SingleResponsibilityPrinciple\EmailSender.cs" />
