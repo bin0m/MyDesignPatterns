@@ -60,6 +60,7 @@ namespace MyDesignPatterns.Decorator
             catch (Exception ex)
             {
                 // log exception
+                Console.WriteLine($"Exception: {ex}");
             }
             // log exit to method
             Console.WriteLine("Logging after SaveStuff()");
