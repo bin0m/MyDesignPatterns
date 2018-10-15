@@ -18,7 +18,8 @@ namespace MyDesignPatterns
             //new Decorator.RunRepositoryLogDecorator().Run();
             //new Bridge.RunRenderer().Run();
             //new Visitor.RunClassicVisitor().Run();
-            new State.RunAccount().Run();
+            //new State.RunAccount().Run();
+            new MyDataStructures.RunMultiMap().Run();
             Console.ReadLine();
         }
     }
