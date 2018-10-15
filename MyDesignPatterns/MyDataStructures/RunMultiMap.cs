@@ -5,20 +5,22 @@ namespace MyDesignPatterns.MyDataStructures
     {
         public void Run()
         {
-            bool b1 = true;
-            bool b2 = false;
-            bool b3 = false;
+            // use MultiMap with strings to store names within categories
+            const string s1 = "cat";
+            const string s2 = "dog";
 
-            MultiMap<bool> m1 = new MultiMap<bool>();
-            m1.Add("key1", b1);
-            m1.Add("key1", b2);
-            m1.Add("key2", b3);
+            MultiMap<string> m1 = new MultiMap<string>();
+            m1.Add("animal", s1);
+            m1.Add("animal", s2);
+            m1.Add("human", "tom");
+            m1.Add("human", "tim");
+            m1.Add("mineral", "calcium");
 
             foreach (string k in m1.Keys)
             {
-                foreach (bool b in m1[k])
+                foreach (string v in m1[k])
                 {
-                    Console.WriteLine(k + "=" + b);
+                    Console.WriteLine(k + "=" + v);
                 }
             }
         }
