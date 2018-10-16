@@ -14,6 +14,7 @@ namespace MyDesignPatterns.MyDataStructures
             m1.Add("animal", s2);
             m1.Add("human", "tom");
             m1.Add("human", "tim");
+            m1.Add("human", "jack");
             m1.Add("mineral", "calcium");
 
             foreach (string k in m1.Keys)
